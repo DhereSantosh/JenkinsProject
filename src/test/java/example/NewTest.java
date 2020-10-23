@@ -15,7 +15,8 @@ public class NewTest {
 	  driver.get("http://demo.guru99.com/test/guru99home/");  
 	  String title = driver.getTitle();				 
 	  Assert.assertTrue(title.contains("Demo Guru99 Page")); 
-	  System.out.println("MY Fiest Chnage in Poject to check in Git");
+	  System.out.println("MY First Chnage in Poject to check in Git");
+	  System.out.println("MY First Chnage in Poject to check in Git");
   }
   @BeforeTest
   public void beforeTest() {
